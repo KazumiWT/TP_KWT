@@ -1,0 +1,66 @@
+# ---- Global ----
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+env/
+venv/
+*.sqlite3
+
+# Flask specific
+instance/
+*.db
+*.pyc
+.mypy_cache/
+pytest_cache/
+
+# ---- JetBrains (PyCharm, IntelliJ) ----
+.idea/
+*.iml
+
+# ---- VSCode ----
+.vscode/
+
+# ---- Android Studio / Java ----
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.apk
+*.aar
+*.lock
+*.log
+
+# Android specific
+# Ignore all gradle/Android build caches
+**/build/
+**/.gradle/
+**/.idea/caches/
+
+# Keystore
+*.jks
+*.keystore
+
+# ---- Node/npm (if ever) ----
+node_modules/
+npm-debug.log
+
+# ---- Git ----
+*.orig
+*.swp
+
+# ---- Mac & Windows system files ----
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
